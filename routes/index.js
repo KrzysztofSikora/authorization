@@ -9,7 +9,7 @@ var bcrypt = require('bcrypt')
 // var users = [{username: 'dickeyxxx', password: '$2a$10$mTQfCYSeHZ4EsO0xdQN2q.dOUtT4LZJMrstq6.qHWZsADY7WKakMu'}]
 var secretKey = 'supersecretkey'
 
-var User = require('/home/krzysztof/IdeaProjects/authorization/models/user')
+var User = require('../models/user')
 
 
 /* GET home page. */
